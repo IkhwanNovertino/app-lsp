@@ -1,0 +1,76 @@
+#hero {
+  display: flex;
+  /* background-color: rgb(7, 0, 100); */
+  background-color: rgba(239, 241, 251, 1);
+  justify-content: space-evenly; 
+  color:rgb(10, 15, 38);
+  height: 90vh;
+  align-items: center;
+}
+
+#hero section.left header {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+}
+
+#hero section.left header h6 {
+  position: relative;
+  z-index: 2;
+}
+
+#hero section.left header .aksen {
+  background-color: rgba(250, 103, 106, 1);
+  width: 72px;
+  height: 16px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 143px;
+  bottom: 0;
+  z-index: 0;
+}
+
+#hero section.left p {
+  color: rgba(10, 15, 38, 0.60);
+  /* margin-top: 8px; */
+  margin-bottom: 0px;
+  line-height: 26px;
+  letter-spacing: 0.52px;
+}
+
+#hero section.left div a {
+  text-decoration: none;
+  color: rgba(239, 241, 251, 1);
+  background: rgba(45, 72, 180, 1);
+  padding-inline: 24px;
+  padding-block: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  border-radius: 8px;
+}
+
+#hero section.right img {
+  width: 280px;
+  height: 400px;
+}
+
+#hero section.right img.sertifikasi {
+  width: 280px;
+  height: 460px;
+}
+
+/* Responsive BreakPoint */
+
+/* Ukuran tablet */
+
+@media screen and (max-width: 640px) {
+  #hero {
+    flex-direction: column-reverse;
+  }
+  #hero section.right img {
+    width: 0;
+    height: 0;
+  }
+}

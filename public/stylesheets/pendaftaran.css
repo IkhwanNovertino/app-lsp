@@ -1,0 +1,71 @@
+#pendaftaran {
+  display: flex;
+  flex-direction: column;
+  padding-top: 120px;
+  padding-bottom: 100px;
+  /* background-color: rgb(7, 0, 100); */
+  /* background-color: rgba(239, 241, 251, 1); */
+  color:rgb(10, 15, 38);
+}
+
+#pendaftaran header.heading {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+}
+
+#pendaftaran header.heading h4 {
+  color: rgba(45, 72, 180, 1);
+}
+
+#pendaftaran header.heading h2 {
+  letter-spacing: 1.2px;
+  position: relative;
+  z-index: 1;
+}
+
+#pendaftaran header.heading .aksen {
+  width: 180px;
+  height: 16px;
+  flex-shrink: 0;
+  background-color: rgba(250, 103, 106, 1);
+  position: absolute;
+  bottom: 0;
+  z-index: 0;
+}
+
+#pendaftaran article {
+  display: flex;
+  flex-direction: column;
+  margin-block: 25px;
+  padding-inline: 12vw;
+}
+
+#pendaftaran article header p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#pendaftaran article ul {
+  margin-top: 16px;
+}
+
+#pendaftaran article ul>li {
+  display: flex;
+  gap: 4px;
+  align-items: flex-start;
+}
+
+#pendaftaran article ul>li p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#pendaftaran article#persyaratan {
+  margin-top: 80px;
+}

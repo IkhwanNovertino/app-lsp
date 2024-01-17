@@ -1,0 +1,109 @@
+main#view_sertifikasi {
+  display: flex;
+  flex-direction: column;
+  padding-block: 40px;
+  /* background-color: rgb(7, 0, 100); */
+  /* background-color: #eff1fb; */
+  justify-content: space-between;
+  color:rgb(10, 15, 38);
+  /* height: 80vh; */
+  /* align-items: center; */
+}
+
+main  header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+main header h6 {
+  position: relative;
+  z-index: 1;
+}
+
+
+main header .aksensertifikasi {
+  background-color: rgba(250, 103, 106, 1);
+  width: 168px;
+  height: 16px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 682px;
+  bottom: 0;
+  z-index: 0;
+}
+
+main>section#network-design {
+  margin-block: 50px;
+
+}
+
+main section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* main section#network-design {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  gap: 30px;
+} */
+
+main section section.left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 200px;
+  padding-right: 100px;
+}
+
+/* main section#network-design section.left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 200px;
+  padding-right: 100px;
+} */
+
+main section section.right {
+  padding-right: 180px;
+}
+
+/* main section#network-design section.right {
+  padding-right: 180px;
+} */
+
+main section section.right img {
+  width: 300px;
+  height: 400px;
+}
+
+/* main section#network-design section.right img {
+  width: 300px;
+  height: 400px;
+} */
+
+section.left header {
+  margin-bottom: 14px;
+}
+
+section.left div {
+  margin-top: 24px;
+}
+
+section.left div a {
+  text-decoration: none;
+  color: rgba(239, 241, 251, 1);
+  background: rgba(45, 72, 180, 1);
+  padding-inline: 24px;
+  padding-block: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  border-radius: 8px;
+}

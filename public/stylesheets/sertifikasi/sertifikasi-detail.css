@@ -1,0 +1,156 @@
+#kompetensi {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  /* background-color: rgb(7, 0, 100); */
+  /* background-color: rgba(239, 241, 251, 1); */
+  color:rgb(10, 15, 38);
+}
+
+#kompetensi header.heading {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+#kompetensi header.heading h4 {
+  color: rgba(45, 72, 180, 1);
+}
+
+#kompetensi header.heading h2 {
+  letter-spacing: 1.2px;
+  position: relative;
+  z-index: 1;
+}
+
+#kompetensi header.heading .aksen {
+  width: 185px;
+  height: 16px;
+  flex-shrink: 0;
+  background-color: rgba(250, 103, 106, 1);
+  position: absolute;
+  bottom: 0;
+  z-index: 0;
+}
+
+#kompetensi .content {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+#kompetensi article {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  width: 460px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background-color: rgba(239, 241, 251, 1);
+  align-items: center;
+}
+
+#kompetensi article ul.list {
+  list-style: none;
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+#kompetensi article ul>li {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+#document {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  /* background-color: rgb(7, 0, 100); */
+  /* background-color: rgba(239, 241, 251, 1); */
+  color:rgb(10, 15, 38);
+}
+
+#document header.heading {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+#document header.heading h4 {
+  color: rgba(45, 72, 180, 1);
+}
+
+#document header.heading h2 {
+  letter-spacing: 1.2px;
+  position: relative;
+  z-index: 1;
+}
+
+#document header.heading .aksen {
+  width: 142px;
+  height: 16px;
+  flex-shrink: 0;
+  background-color: rgba(250, 103, 106, 1);
+  position: absolute;
+  bottom: 0;
+  z-index: 0;
+}
+
+#document .content {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+#document article a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 250px;
+  padding-block: 24px;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background-color: rgba(239, 241, 251, 1);
+  align-items: center;
+}
+
+#document article a .illustration {
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 2.1px rgb(204, 213, 248);
+}
+
+#document article a .illustration svg {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  background-color: rgba(222, 227, 247, 1);
+  padding: 12px;
+}
+
+#document article a h3 {
+  text-align: center;
+}
+
+#document article:hover {
+  cursor: pointer;
+  box-shadow: 1px 2px 20px #FED1D2;
+  transform: scale(1.1);
+  transition:ease-out .5s;
+  border-radius: 24px;
+}
