@@ -8,7 +8,7 @@ router.get('/', async function (req, res, next) {
     const forum = await Forum.find();
 
     res.render('forum/view_forum', {
-      title: 'Express',
+      title: 'LSP-STMIK BANJARBARU',
       forum
     })
   } catch (error) {
@@ -18,14 +18,11 @@ router.get('/', async function (req, res, next) {
 
 router.post('/create', async function (req, res, next) {
   try {
-    console.log('berhasil ke dalam proses create');
     const { name, question } = req.body
-    console.log(name, question);
 
     let forum = await Forum({ name, question })
     await forum.save()
 
-    console.log('data forum>>>' + forum);
     res.redirect('/forum')
   } catch (error) {
     console.log('Error Create >>> ' + error);
@@ -40,7 +37,7 @@ router.get('/detail/:id', async function (req, res, next) {
 
     const comment = await Comment.find({ question: id })
     res.render('forum/detail', {
-      title: 'Ikhwan',
+      title: 'LSP-STMIK BANJARBARU',
       forum,
       comment
     })
@@ -51,7 +48,6 @@ router.get('/detail/:id', async function (req, res, next) {
 
 router.post('/comment', async function (req, res, next) {
   try {
-    console.log('berhasil ke dalam proses update');
     const { _id, name, answer } = req.body;
 
     let comment = await Comment({

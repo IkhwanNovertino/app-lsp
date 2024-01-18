@@ -73,25 +73,20 @@
 
 <%# include('../partials/footer.ejs') %>
 <script>
-  // get modal untuk buat pertanyaan
 const modalPertanyaan = document.getElementById('modalPertanyaan');
 
-// get button buat pertanyaan
 const btnBuatPertanyaan = document.getElementById('create')
 
 const span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on the button, open the modal
 btnBuatPertanyaan.onclick = function () {
   modalPertanyaan.style.display = "block";
 }
 
-// When the user clicks on <span> (x), close the modal
 span.onclick = function () {
   modalPertanyaan.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
   if (event.target == modalPertanyaan) {
     modalPertanyaan.style.display = "none";

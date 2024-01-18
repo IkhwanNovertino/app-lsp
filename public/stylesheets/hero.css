@@ -1,6 +1,5 @@
 #hero {
   display: flex;
-  /* background-color: rgb(7, 0, 100); */
   background-color: rgba(239, 241, 251, 1);
   justify-content: space-evenly; 
   color:rgb(10, 15, 38);

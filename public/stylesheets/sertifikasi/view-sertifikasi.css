@@ -2,12 +2,7 @@ main#view_sertifikasi {
   display: flex;
   flex-direction: column;
   padding-block: 40px;
-  /* background-color: rgb(7, 0, 100); */
-  /* background-color: #eff1fb; */
-  justify-content: space-between;
   color:rgb(10, 15, 38);
-  /* height: 80vh; */
-  /* align-items: center; */
 }
 
 main  header {
@@ -37,7 +32,6 @@ main header .aksensertifikasi {
 
 main>section#network-design {
   margin-block: 50px;
-
 }
 
 main section {
@@ -45,13 +39,6 @@ main section {
   align-items: center;
   gap: 30px;
 }
-
-/* main section#network-design {
-  display: flex;
-  align-items: center;
-  margin-top: 50px;
-  gap: 30px;
-} */
 
 main section section.left {
   display: flex;
@@ -61,31 +48,14 @@ main section section.left {
   padding-right: 100px;
 }
 
-/* main section#network-design section.left {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-left: 200px;
-  padding-right: 100px;
-} */
-
 main section section.right {
   padding-right: 180px;
 }
-
-/* main section#network-design section.right {
-  padding-right: 180px;
-} */
 
 main section section.right img {
   width: 300px;
   height: 400px;
 }
-
-/* main section#network-design section.right img {
-  width: 300px;
-  height: 400px;
-} */
 
 section.left header {
   margin-bottom: 14px;

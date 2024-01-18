@@ -1,7 +1,6 @@
 /* Navbar */
 nav {
   display: flex;
-  /* background-color: rgb(7, 0, 100); */
   background-color: rgba(239, 241, 251, 1);
   justify-content: space-around;
   color:rgb(10, 15, 38);
@@ -66,9 +65,9 @@ nav ul li a:hover {
   transform-origin: 0 100%;
 }
 
-.menu-toggle span:nth-child(3) {
+/* .menu-toggle span:nth-child(3) {
   
-}
+} */
 
 .menu-toggle input:checked ~ span:nth-child(2) {
   background-color: rgb(10, 15, 38);

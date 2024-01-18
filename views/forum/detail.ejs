@@ -80,26 +80,21 @@
 <%# include('../partials/footer.ejs') %>
 
 <script>
-  // get button jawaban
   const btnJawab = document.getElementById('btnanswer');
-  // get modal
   const modalJawab = document.getElementById('modalJawaban')
   const spand = document.getElementsByClassName("closed")[0];
   const idForum = btnJawab.getAttribute('name')
   const inputId = document.getElementById('_id');
   inputId.setAttribute('value', idForum);
 
-  // When the user clicks on the button, open the modal
 btnJawab.onclick = function () {
   modalJawab.style.display = "block";
 }
 
-// When the user clicks on <span> (x), close the modal
 spand.onclick = function () {
   modalJawab.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
   if (event.target == modalJawab) {
     modalJawab.style.display = "none";

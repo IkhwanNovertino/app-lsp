@@ -125,14 +125,6 @@ section#list-pertanyaan .list-group .pertanyaan a .question {
   flex-direction: column;
   margin-top: 24px;
 }
-
-/* #detail-pertanyaan section#pertanyaan .group {
-  background-color:rgba(239, 241, 251, 1);
-  width: 52vw;
-  border-top-left-radius: 18px;
-  border-top-right-radius: 18px;
-} */
-
 .group {
   background-color:rgba(239, 241, 251, 1);
   width: 52vw;
@@ -162,12 +154,6 @@ section#list-pertanyaan .list-group .pertanyaan a .question {
   padding-top: 12px;
   padding-bottom: 24px;
 }
-/* #detail-pertanyaan section#pertanyaan .group #body-pertanyaan {
-  font-size: 16px;
-  padding-inline: 14px;
-  padding-top: 12px;
-  padding-bottom: 24px;
-} */
 
 .group #meta-data {
   padding-block: 12px;
@@ -176,19 +162,7 @@ section#list-pertanyaan .list-group .pertanyaan a .question {
   display: flex;
   gap: 24px;
 }
-/* #detail-pertanyaan section#pertanyaan .group #meta-data {
-  padding-block: 12px;
-  padding-inline: 12px;
-  background-color: rgba(222, 227, 247, 1);
-  display: flex;
-  gap: 24px;
-} */
 
-/* #detail-pertanyaan section#pertanyaan .group #meta-data div {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-} */
 .group #meta-data div {
   display: flex;
   align-items: center;
@@ -199,10 +173,6 @@ section#list-pertanyaan .list-group .pertanyaan a .question {
   font-size: 14px;
   color: rgba(10, 15, 38, .7);
 }
-/* #detail-pertanyaan section#pertanyaan .group #meta-data span {
-  font-size: 14px;
-  color: rgba(10, 15, 38, .7);
-} */
 
 #detail-pertanyaan section#comment {
   display: flex;
